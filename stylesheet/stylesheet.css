@@ -1,0 +1,119 @@
+/* Asthetic website by capu*/
+/* cred: 
+    Song: https://www.youtube.com/watch?v=QL9_rPPyCMQ
+    Font 1: https://fonts.google.com/specimen/Righteous 
+    Font 2: https://fonts.google.com/specimen/Ropa+Sans
+    Font 3: https://fonts.google.com/specimen/Play
+    Picture: https://i.redd.it/g15bo6yi2bc01.png
+
+    This is a good site ---> https://www.w3schools.com/
+    
+    Thank you for using this code! Please give credit. Have a wonderful day :)
+*/
+
+/*body*/
+body {
+    margin: 0;
+    font-family: 'Alata', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+/*Main text*/
+  .caputext {
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/*2nd text*/
+.caputext2 {
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-family: 'Ropa Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/*Watermark*/
+.capumark {
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-family: 'Ropa Sans', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/*Picture*/
+#capupicture {
+    position: fixed;
+    background-repeat: no-repeat; 
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    filter: blur(7px);
+    -webkit-filter:blur(7px);
+	-moz-filter: blur(7px);
+	-o-filter: blur(7px);
+	-ms-filter: blur(7px);
+	filter: blur(7px);
+}
+
+
+/*Links*/
+.capulinks {
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    text-align: center;
+    width: 100%;
+    font-family: 'Play', sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  a {
+    color: rgb(255, 255, 255); 
+  }
+
+  /*Glow (cred to w3schools)*/
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
